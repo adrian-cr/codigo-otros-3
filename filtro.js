@@ -13,7 +13,7 @@ const listaProductos = document.getElementById("lista-de-productos") //Se cambi�
 const campoBusqueda = document.querySelector('input');//Se eliminó el operador '.' del argumento 'input'.
 const botonDeFiltro = document.querySelector("button");
 
-/* Se almacenó el ciclo 'for' dentro de la declaración de 'displayProductos()', una función que no había sido aún declarada pero sí llamada en la línea 35.*/
+/* Se almacenó el ciclo 'for' dentro de la declaración de 'displayProductos()', una función que no había sido aún declarada pero sí llamada en la línea 38.*/
 const displayProductos = productos => {
     for (let i = 0; i < productos.length; i++) {
       var producto = document.createElement("div") //Se modificó el nombre de la viariable 'd' por una alternativa más descriptiva ('producto').
